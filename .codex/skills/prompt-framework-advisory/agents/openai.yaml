@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Prompt Framework Advisory"
+  short_description: "需求釐清與防討好壓力測試框架"
+  default_prompt: "Use $prompt-framework-advisory to clarify my requirements before producing a strategy."
+
+policy:
+  allow_implicit_invocation: true
