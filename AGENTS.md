@@ -834,3 +834,30 @@ complete transformation, and pass value forward.
 ```
 
 當需求「模糊且重大」時，不要直接寫文案。先用反向提問法補齊資訊，再用五人智囊團排雷，最後才進入行銷輸出。
+
+---
+
+# GitHub 上傳偏好
+
+使用者偏好：之後 GitHub 上傳流程要簡化並盡量自動執行。
+
+當使用者說「上傳 GitHub」、「更新 GitHub」、「推上去」、「同步 repo」等語句時：
+
+1. 不要重講完整教學。
+2. 直接檢查 `git status`。
+3. 自動加入相關變更。
+4. 使用簡潔 commit message。
+5. 直接 push 到已設定的 `origin/main`。
+6. 只在缺少 repo URL、需要登入授權、或有衝突/失敗時才詢問使用者。
+
+預設上傳範圍：
+
+- `AGENTS.md`
+- `.codex/skills/`
+- `outputs/` 中的正式摘要或交付檔
+
+預設排除：
+
+- `work/`
+- zip 檔
+- 暫存檔
